@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(97, 57, 25);
+    padding-left: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+header a:link {
+    color: antiquewhite;
+}
+
+nav {
+    color: antiquewhite;
+}
+
+nav ul {
+    font-size: large;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding-right: 2em;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background: white;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  text-wrap: nowrap;
+  font-size: medium;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-menu li a:hover {
+  background: #eee;
+}
+
+#homehero {
+    background-color: bisque;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    gap: 1.5em;
+}
+
+.section.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-box {
+    width: 600px;
+    height: 350px;
+    background-color: #ccc;
+    border: 2px dashed #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.description {
+    max-width: 500px;
+}
+
+.description h1 {
+    margin: 0;
+}
+
+.description h2 {
+    margin: 0;
+}
+
+.description p {
+    margin: 20px 0;
+}
+
+.description button {
+    padding: 10px 20px;
+}
+
+
+
+footer {
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+
+
+footer a:link{
+    color: black;
+}
+
+footer a:hover{
+    color: black;
+}
+
+.topfoot {
+display: flex;
+justify-content: space-between;
+padding: 0 1em;
+margin-top: 1em;
+}
+
+.rightfooter {
+    display: flex;
+    gap: 100px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 0.25em;
+}
+
+.bottomfoot{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
