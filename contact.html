@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>In Plane Site</title>
+    <link rel="stylesheet" href="inplanesite.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="Artboard1@300x.png" alt="In Plane Site Logo">
+        </a>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <span>Locations ▾</span>
+                    <ul class="dropdown-menu">
+                        <li><a href="location1.html">Thailand</a></li>
+                        <li><a href="location2.html">Indonesia</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contactcontainer">
+            <h1>Lets Get In Touch!</h1>
+            <h2>Contact me for work, photo usage, travel or camera tips, or for any inquiries!</h2>
+            <p>Fields marked with an asterisk * are required.</p>
+            <br>
+
+            <form action="https://webdevbasics.net/scripts/pacific.php" method="post">
+
+                <label for="FirstName">*First Name:</label>
+                <input type="text" id="FirstName" name="FirstName" placeholder="'John'" required>
+
+                <label for="LastName">*Last Name:</label>
+                <input type="text" id="LastName" name="LastName" placeholder="'Smith'" required>
+
+                <label for="Phone#">Phone Number:</label>
+                <input type="tel" id="Phone#" name="Phone#" maxlength="12" placeholder="xxx-xxx-xxxx">
+
+                <label for="Email">*E-mail Address</label>
+                <input type="email" name="Email" id="Email" placeholder="johnsmith@email.com" required>
+
+                <label for="Subject">*Subject</label>
+                <input type="text" name="Subject" id="Subject" placeholder="Subject" required>
+
+                <label for="myComments">*Comments</label>
+                <textarea name="myComments" id="myComments" rows="2" cols="30" required></textarea>
+
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="topfoot">
+            <a href="index.html">In Plane Site</a>
+            <div class="rightfooter">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <hr>
+        <div class="bottomfoot">
+            Copyright © In Plane Site
+        </div>
+    </footer>
+</body>
+
+</html>
