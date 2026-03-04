@@ -8,9 +8,16 @@
 
 
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #fffcfa;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .logo {
@@ -138,6 +145,7 @@ nav span {
 }
 
 main {
+    flex: 1;   
     margin: 3vh;
     padding: 1em 5%;
 }
